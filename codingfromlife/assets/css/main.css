@@ -1,0 +1,180 @@
+body {
+	background: #cccccc;
+}
+
+#align {
+	display: flex;
+  align-items: center;
+  justify-content: center;	
+  height: 100vh;
+}
+
+#stage {
+	width: 900px;
+	height: 556px;
+	margin: auto;
+	background: beige;
+	position: relative;
+}
+
+.label {
+	position: absolute;
+	top: 40px;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 24px;
+	color: #333;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+	color: #036635;
+}
+
+
+#cup {
+	width: 150px;
+	height: 300px;
+	background: lightgrey;
+	border-radius: 10px 10px 30px 30px;
+	position: absolute;
+	top: 203px;
+	left: 280px;
+}
+
+#straw {
+	width: 20px;
+	height: 100px;
+	background: #999090;
+	border-radius: 10px;
+	transform: rotate(15deg);
+	position: absolute;
+	top: 110px;
+	left: 400px;
+}
+
+#drink {
+	width: 130px;
+	height: 290px;
+	background: linear-gradient(to top, #4b7c45, #6aa06a);
+	border-radius: 0 0 20px 20px;
+	position: absolute;
+	top: 203px;
+	left: 290px;
+}
+
+#whipped-cream {
+	width: 130px;
+	height: 100px;
+	background: white;
+	border-radius: 100% 100% 100% 100% / 100% 100% 50% 50%; 
+	position: absolute;
+	top: 160px;
+	left: 290px;
+}
+
+#choco-chips {
+            position: absolute;
+            top: 170px;
+            left: 330px;
+            width: 10px;
+            height: 10px;
+            background: #4b3b2b;
+            border-radius: 2px;
+            box-shadow: 
+                50px 10px #4b3b2b,
+                -10px 30px #4b3b2b,
+                20px 40px #4b3b2b,
+                00px 50px #4b3b2b;
+        }
+
+
+li {
+	font-size:  16px;
+	line-height: 22px;
+}
+
+ul {
+	margin-left: 440px;
+	margin-top: 240px;
+}
+
+
+
+#triangle {
+	width: 0;
+	height: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-bottom: 150px solid yellow;
+	position: absolute;
+	top: 203px;
+	left: 60px;
+}
+
+#square {
+	width: 150px;
+	height: 150px;
+	background: red;
+	top: 203px;
+	left: 270px;
+	position: absolute;
+
+	/* uncomment to add keyframe animation */
+	/* animation: spin 2s infinite; */
+
+}
+
+#circle {
+	width: 150px;
+	height: 150px;
+	background: blue;
+	border-radius: 150px;
+	top: 203px;
+	left: 480px;
+	position: absolute;
+}
+
+#clip {
+	width: 150px;
+	height: 150px;
+	background: green;
+	clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+	top: 203px;
+	left: 690px;
+	position: absolute;
+
+	/* uncomment for css transitions */
+	/* transition: all 400ms ease; */
+}
+
+
+
+
+/* animations */
+
+/*
+#clip:hover {
+	transform: rotate(1200deg);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes move {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+
+*/
+
