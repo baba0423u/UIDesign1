@@ -12,8 +12,8 @@
 
 <body>
 
-  <button id="darkmode">
-    Dark Mode Toggle 
+  <button id="darkmode" class="toggle-button">
+    🌙 Dark Mode
   </button>
 
   <!-- this is where my code is-->
@@ -24,33 +24,51 @@
       <img src="https://i.imgur.com/ASGHVVW.png" />
 
       <!-- about me-->
-      <h1><span class="cursive">Hyojeong Kang</h1>  
+      <h1><span class="cursive">Hyojeong Kang</span></h1>  
       <p class="desc">is a student at Seoul National University with a passion for UX/UI design. 📱🎨🍀</p>
-      <ul>
-        <li>My favorite food is 🥪 sandwich 🥪</li>
-        <li>My favorite song is 🎧 <a href="https://youtube.com/shorts/OrB7iNPP7v0?si=eEhLcG1_srrX_oA2">eaJ - right where you left me </a>🎧</li>
-        <li>My favorite website is 🧑🏻‍🚀 <a href="https://www.eajpark.com/">eaJ (Official Website)</a> 🧑🏻‍🚀</li>
 
-      </ul>
+      <div class="favorites">
+        <p>My favorite food is 🥪 sandwich 🥪</p>
+        <p>
+          My favorite song is 🎧 
+          <a href="https://youtube.com/shorts/OrB7iNPP7v0?si=eEhLcG1_srrX_oA2" target="_blank" rel="noopener noreferrer">
+            eaJ - right where you left me
+          </a> 🎧
+        </p>
+        <p>
+          My favorite website is 🧑🏻‍🚀 
+          <a href="https://www.eajpark.com/" target="_blank" rel="noopener noreferrer">
+            eaJ (Official Website)
+          </a> 🧑🏻‍🚀
+        </p>
+      </div>
 
       <!-- add project -->
       <h2>Exercises</h2>
-      <ul>
-        <li><a href="ascii/exterior-hyojeong.html">ASCII Town</a></li>
-        <li><a href="codingfromlife/index.html">Coding from Life</a></li>
-        <li><a href="myshelf/index.html">My Shelf</a></li>
-      </ul>
+      <div class="exercises">
+        <p><a href="ascii/exterior-hyojeong.html" target="_blank" rel="noopener noreferrer">ASCII Town</a></p>
+        <p><a href="codingfromlife/index.html" target="_blank" rel="noopener noreferrer">Coding from Life</a></p>
+        <p><a href="myshelf/index.html" target="_blank" rel="noopener noreferrer">My Shelf</a></p>
+      </div>
 
       <h2>Projects</h2>
-      <ul>
-        <li><a href="https://www.figma.com/deck/KudHTrPI5cAhtYJxQPnnfT/Hyojeong-Kang?node-id=1-100&viewport=-114%2C-113%2C0.54&t=7qDJTCRU56ejb1kP-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1">P1: Personal Utility</a></li>
-      </ul>
-      <ul>
-        <li><a href="https://baba0423u.github.io/DAY6onMap/">P2: Public Utility</a></li>
-      </ul>
 
-    </div>
-  </div>
+      <div class="project">
+        <span class="label">P1: Personal Utility</span><br/>
+        <a href="https://www.figma.com/deck/KudHTrPI5cAhtYJxQPnnfT/Hyojeong-Kang?node-id=1-100&viewport=-114%2C-113%2C0.54&t=7qDJTCRU56ejb1kP-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1" target="_blank" rel="noopener noreferrer">Presentation Slides</a>
+        <a href="https://www.figma.com/proto/nQ8KIHin6WefZpgJTWWaIU/Hyojeong-Kang_P1_Prototype?page-id=0%3A1&node-id=4-181&viewport=3597%2C2506%2C0.34&t=Vlq2Pso7PDdUygyy-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=4%3A181" target="_blank" rel="noopener noreferrer" >Prototype</a>
+      </div>
+
+      <div class="project">
+        <span class="label">P2: Public Utility</span><br/>
+        <a href="https://www.figma.com/deck/Pmvzm2wXD69xb5glFK71VJ/-UDP--DAY6-on-Map?node-id=1-42&viewport=-112%2C-111%2C0.54&t=fym1inJ7RdeAaXX1-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1" target="_blank" rel="noopener noreferrer">Presentation Slides</a>
+        <a href="https://baba0423u.github.io/DAY6onMap/" target="_blank" rel="noopener noreferrer">Website</a>
+      </div>
+
+      <div class="project">
+        <span class="label">P3: Game Cards</span><br/>
+        <a href="gamecards/index.html">Game Cards</a>
+      </div>
 
 
   <script type="text/javascript" src="assets/script.js"></script>

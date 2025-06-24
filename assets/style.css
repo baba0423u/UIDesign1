@@ -78,6 +78,80 @@ body.dark a {
 }
 
 
+.project {
+  margin-bottom: 16px;
+  font-family: inherit;
+}
+
+.label {
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.project a {
+  margin-right: 12px;
+  text-decoration: none;
+  color: #3366cc;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+.exercises a {
+  display: inline; /* 클릭 영역 최소화 */
+  color: #3366cc;
+  text-decoration: none;
+}
+
+.exercises a:hover {
+  text-decoration: underline;
+}
+
+.exercises p {
+  margin: 6px 0 !important;
+  line-height: 1.6 !important;
+}
+
+.favorites p {
+  margin-bottom: 6px;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+
+.toggle-button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  font-family: inherit;
+}
+
+.toggle-button:hover {
+  background-color: #555;
+  transform: scale(1.05);
+}
+
+body.dark .toggle-button {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+body.dark .toggle-button:hover {
+  background-color: #ddd;
+}
+
+
+
+
+
 /* uncomment the code below to set the grid */
 
 /*#grid {
