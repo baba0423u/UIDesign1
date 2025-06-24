@@ -6,7 +6,8 @@
 
 
 body {
-	background-color: lightyellow;
+	background-image: linear-gradient(#FFFEFF 0%, #D7FFFE 100%);
+	margin: 4px;
 }
 
 /* adjusting fonts */
@@ -14,6 +15,7 @@ body {
 body {
     color: black;
     Font-family: arial;
+    text-align: center;
 }
 
 .cursive {
@@ -30,8 +32,10 @@ body {
 
 p, li {
 	font-size:  16px;
-	line-height: 22px;
+	line-height: 1.5;
+	list-style-position: inside;
 }
+
 
 /* adjusting spacing */
 
@@ -43,6 +47,11 @@ h1, p {
 	margin-bottom:  20px;
 }
 
+h2 {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
 ul, ol {
 	margin-left: 20px;
 }
@@ -51,6 +60,23 @@ img {
 	max-width: 100%;
 	height:  auto;
 }
+
+li {
+	text-align: center;
+
+
+}
+
+
+body.dark {
+  background: #333;
+  color: white;
+}
+
+body.dark a {
+	color: #87cefa;
+}
+
 
 /* uncomment the code below to set the grid */
 
